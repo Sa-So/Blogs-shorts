@@ -17,16 +17,18 @@ Set your email address: git config --global user.email "MY_NAME@example.com"
 So TIL that merge conflicts can be seen when 2 people are working on same branch !
 like not only when we **MERGE** 2 branches but also while commiting .
 
+### steps
 commit your changes ,
 pull the other guy's changes using git pull origin branch_name
 now you will have merge conflicts in your vscode .
 using buttons u can sellect which changes you want to keep .
 
 
-
+### I did not commit !
 so I did the same thing (clicked pull) using vscode but my vscode rejected for some reason !! ;(
 it showed , this error instead [error](https://stackoverflow.com/questions/51817479/vscode-please-clean-your-repository-working-tree-before-checkout)
 with the following git log/output error
+
 ```sh
 > git pull --tags origin scenario-one
 From https://hehe
@@ -42,3 +44,6 @@ error: The following untracked working tree files would be overwritten by merge:
 Please move or remove them before you merge.
 Aborting
 ```
+### so commit / stashing should be done before pulling !
+- but why?
+- This is a question for some other time .
