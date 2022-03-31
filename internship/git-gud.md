@@ -26,7 +26,7 @@ using buttons u can sellect which changes you want to keep .
 
 ### I did not commit !
 so I did the same thing (clicked pull) using vscode but my vscode rejected for some reason !! ;(
-it showed , this error instead [error](https://stackoverflow.com/questions/51817479/vscode-please-clean-your-repository-working-tree-before-checkout)
+it showed , [this](https://stackoverflow.com/questions/51817479/vscode-please-clean-your-repository-working-tree-before-checkout) error 
 with the following git log/output error
 
 ```sh
@@ -44,6 +44,6 @@ error: The following untracked working tree files would be overwritten by merge:
 Please move or remove them before you merge.
 Aborting
 ```
-### so commit / stashing should be done before pulling !
-- but why?
+### so commit / stashing should be done before pulling to see merge conflicts !
+- but why? & what if we don't want to commit yet ?
 - This is a question for some other time .
